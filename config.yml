@@ -1,0 +1,4 @@
+baseURL: "https://emiliaowo.github.io/LTL/"
+languageCode: en-us
+title: My New Hugo Site
+theme: PaperMod
