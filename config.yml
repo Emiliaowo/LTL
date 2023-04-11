@@ -1,4 +1,38 @@
 baseURL: "https://emiliaowo.github.io/LTL/"
 languageCode: en-us
-title: My New Hugo Site
+title: Emilias Blog
 theme: PaperMod
+
+menu:
+    main:
+        - identifier: Categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: Archives
+          name: Archives
+          url: /archives/
+          weight: 20
+
+params:
+    defaultTheme: auto # to switch between dark or light according to browser theme
+    ShowToc: true
+    TocOpen: true
+    ShowShareButtons: false
+    outputs:
+        home:
+            - HTML
+            - RSS
+            - JSON # is necessary
+    homeInfoParams:
+        Title: Hi There!
+        Content: Welcome To My Blog
+
+    socialIcons:
+    - name: "youtube"
+      title: "<Just a silly girl youtubes>"
+      url: "https://www.youtube.com/channel/UCPZxiMwpvJbLaWtD6Z0ypag"
+    - name: "discord"
+      title: "<My Discord server 'Mostly gaming'>"
+      url: "https://discord.gg/EwBBEHbR"
+
