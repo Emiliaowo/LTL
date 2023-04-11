@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Emilias Blog</title>
     <link>https://emiliaowo.github.io/LTL/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Emilias Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Mar 2023 11:21:20 +0300</lastBuildDate><atom:link href="https://emiliaowo.github.io/LTL/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Apr 2023 02:02:53 +0300</lastBuildDate><atom:link href="https://emiliaowo.github.io/LTL/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://emiliaowo.github.io/LTL/docs/test/</link>
+      <title>About Me</title>
+      <link>https://emiliaowo.github.io/LTL/docs/aboutme/</link>
+      <pubDate>Wed, 05 Apr 2023 02:02:53 +0300</pubDate>
+      
+      <guid>https://emiliaowo.github.io/LTL/docs/aboutme/</guid>
+      <description>Hi, my names Lia. I am a highly motivated individual with a passion for technology and networking. With my CCNA certification, I have a strong foundation in the field of networking and am constantly learning to improve my skills. My expertise includes Active Directory and PowerShell, which I have been studying in depth to gain a deeper understanding of how to optimize and manage large networks. I am dedicated to staying up to date with the latest developments and trends in the industry, and I am eager to put my knowledge and skills to use in real-world situations.</description>
+    </item>
+    
+    <item>
+      <title>SyncThing</title>
+      <link>https://emiliaowo.github.io/LTL/docs/syncthing/</link>
       <pubDate>Fri, 31 Mar 2023 11:21:20 +0300</pubDate>
       
-      <guid>https://emiliaowo.github.io/LTL/docs/test/</guid>
-      <description>This is a test Test1</description>
+      <guid>https://emiliaowo.github.io/LTL/docs/syncthing/</guid>
+      <description>Is a file synchronization tool that allows you to keep files and folders in sync across multiple devices. It works by creating a shared folder on one device and adding other devices to the folder. Any changes made to the files in the folder on one device are automatically synced to all the other devices in the folder. Syncthing is free, open-source, and available for Windows, Linux, macOS, Android, and other platforms.</description>
     </item>
+    
+    
     
   </channel>
 </rss>

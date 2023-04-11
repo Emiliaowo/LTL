@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>SyncThing | Emilias Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Is a file synchronization tool that allows you to keep files and folders in sync across multiple devices. It works by creating a shared folder on one device and adding other devices to the folder. Any changes made to the files in the folder on one device are automatically synced to all the other devices in the folder. Syncthing is free, open-source, and available for Windows, Linux, macOS, Android, and other platforms.">
+<meta name="author" content="">
+<link rel="canonical" href="https://emiliaowo.github.io/LTL/docs/syncthing/">
+<link crossorigin="anonymous" href="/LTL/assets/css/stylesheet.6a98292fb8fa8cf0f3ba4042d4b75515c04267550f3ad49ff6271b5af9562443.css" integrity="sha256-apgpL7j6jPDzukBC1LdVFcBCZ1UPOtSf9icbWvlWJEM=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/LTL/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://emiliaowo.github.io/LTL/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://emiliaowo.github.io/LTL/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://emiliaowo.github.io/LTL/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://emiliaowo.github.io/LTL/apple-touch-icon.png">
+<link rel="mask-icon" href="https://emiliaowo.github.io/LTL/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="SyncThing" />
+<meta property="og:description" content="Is a file synchronization tool that allows you to keep files and folders in sync across multiple devices. It works by creating a shared folder on one device and adding other devices to the folder. Any changes made to the files in the folder on one device are automatically synced to all the other devices in the folder. Syncthing is free, open-source, and available for Windows, Linux, macOS, Android, and other platforms." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://emiliaowo.github.io/LTL/docs/syncthing/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2023-03-31T11:21:20+03:00" />
+<meta property="article:modified_time" content="2023-03-31T11:21:20+03:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SyncThing"/>
+<meta name="twitter:description" content="Is a file synchronization tool that allows you to keep files and folders in sync across multiple devices. It works by creating a shared folder on one device and adding other devices to the folder. Any changes made to the files in the folder on one device are automatically synced to all the other devices in the folder. Syncthing is free, open-source, and available for Windows, Linux, macOS, Android, and other platforms."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Docs",
+      "item": "https://emiliaowo.github.io/LTL/docs/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "SyncThing",
+      "item": "https://emiliaowo.github.io/LTL/docs/syncthing/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "SyncThing",
+  "name": "SyncThing",
+  "description": "Is a file synchronization tool that allows you to keep files and folders in sync across multiple devices. It works by creating a shared folder on one device and adding other devices to the folder. Any changes made to the files in the folder on one device are automatically synced to all the other devices in the folder. Syncthing is free, open-source, and available for Windows, Linux, macOS, Android, and other platforms.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Is a file synchronization tool that allows you to keep files and folders in sync across multiple devices. It works by creating a shared folder on one device and adding other devices to the folder. Any changes made to the files in the folder on one device are automatically synced to all the other devices in the folder. Syncthing is free, open-source, and available for Windows, Linux, macOS, Android, and other platforms.\nOne of the key advantages of Syncthing is its security. It uses encryption to protect communication between devices, and all data remains on your own devices, rather than being stored in the cloud. Syncthing also supports versioning, so you can revert to a previous version of a file if needed, and has a user-friendly web interface that makes it easy to manage synchronization between devices.\nTo use Syncthing you need to have basic knowledge in Windows.\nI will be covering:\nSync between phone and computer. Silent automatic startup. Folder sharing permission. To download syncthing use https://github.com/Bill-Stewart/SyncthingWindowsSetup/releases/, this is their official download link.\nRunning Syncthing.exe will open their web GUI Please notice that even though you may have added a device, you will need to give it access to the shared folder you created.\nThis allows you to have lots of devices while having complete control over which folder is shared with which devices. First, you’d want to add your second device. After that, press on Good job!! Press on save and that’s it.\n1. Now let’s start setting up silent autostart Open task schedule, either by searching for Task Schedule in Windows or using the run command and typing taskschd.msc Click on Create Task Then click on Run whether user is logged on or not 2. Press on Trigger tab Click on Begin the task and choose At log on and choose your user Click on Begin the task and choose At startup/At system startup 3. Go into Actions tab In Action leave it on Start a program In Program/Script enter the path to syncthing for me, its C:\\ProgramData\\chocolatey\\bin\\syncthing.exe This is optimal, but you can add -no-console for no cmd console, and -no-browser for no browser. 4. Go into Settings tab Disable Stop the task if it runs longer than: Good Job! :\u003e You’ve set up automatic startup for SyncThing\nSome Additional Settings Let’s set up a shortcut link on the desktop that will do the same action\nYou can set up task schedule to automatically open the desktop link.\nBegin by creating a new shortcut Right click on your desktop and \u003e new \u003e shortcut Name the shortcut, the directory to your syncthing app, mine is C:\\ProgramData\\chocolatey\\bin\\syncthing.exe -no-console -no-browser add -no-console -no-browser Syncthing also has file versioning\nI will be covering more advanced syncthing features soon, for now, this setup will suffice for the average user.\n",
+  "wordCount" : "469",
+  "inLanguage": "en",
+  "datePublished": "2023-03-31T11:21:20+03:00",
+  "dateModified": "2023-03-31T11:21:20+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://emiliaowo.github.io/LTL/docs/syncthing/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Emilias Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://emiliaowo.github.io/LTL/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://emiliaowo.github.io/LTL/" accesskey="h" title="Emilias Blog (Alt + H)">Emilias Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://emiliaowo.github.io/LTL/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://emiliaowo.github.io/LTL/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      SyncThing
+    </h1>
+    <div class="post-meta"><span title='2023-03-31 11:21:20 +0300 +0300'>March 31, 2023</span>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul><ul>
+                <li>
+                    <a href="#1-now-lets-start-setting-up-silent-autostart" aria-label="1. Now let&amp;rsquo;s start setting up silent autostart">1. Now let&rsquo;s start setting up silent autostart</a></li>
+                <li>
+                    <a href="#2-press-on-trigger-tab" aria-label="2. Press on Trigger tab">2. Press on Trigger tab</a></li>
+                <li>
+                    <a href="#3-go-into-actions-tab" aria-label="3. Go into Actions tab">3. Go into Actions tab</a></li>
+                <li>
+                    <a href="#4-go-into-settings-tab" aria-label="4. Go into Settings tab">4. Go into Settings tab</a></li></ul>
+                    
+                <li>
+                    <a href="#some-additional-settings" aria-label="Some Additional Settings">Some Additional Settings</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Is a file synchronization tool that allows you to keep files and folders in sync across multiple devices. It works by creating a shared folder on one device and adding other devices to the folder. Any changes made to the files in the folder on one device are automatically synced to all the other devices in the folder. Syncthing is free, open-source, and available for Windows, Linux, macOS, Android, and other platforms.</p>
+<p>One of the key advantages of Syncthing is its security. It uses encryption to protect communication between devices, and all data remains on your own devices, rather than being stored in the cloud.
+Syncthing also supports versioning, so you can revert to a previous version of a file if needed, and has a user-friendly web interface that makes it easy to manage synchronization between devices.</p>
+<blockquote>
+<p><em>To use Syncthing you need to have basic knowledge in Windows.</em><br>
+I will be covering:</p>
+</blockquote>
+<ul>
+<li>Sync between phone and computer.</li>
+<li>Silent automatic startup.</li>
+<li>Folder sharing permission.</li>
+</ul>
+<p>To download syncthing use <a href="https://github.com/Bill-Stewart/SyncthingWindowsSetup/releases/">https://github.com/Bill-Stewart/SyncthingWindowsSetup/releases/</a>, this is their official download link.</p>
+<p>Running Syncthing.exe will open their web GUI
+<img loading="lazy" src="webgui.png" alt="Alt Text"  />
+</p>
+<blockquote>
+<p>Please notice that even though you may have added a device, you will need to give it access to the shared folder you created.</p>
+</blockquote>
+<ul>
+<li>This allows you to have lots of devices while having complete control over which folder is shared with which devices.</li>
+</ul>
+<p>First, you&rsquo;d want to add your second device.
+<img loading="lazy" src="step1.png" alt="Alt Text"  />
+</p>
+<p>After that, press on
+<img loading="lazy" src="step2.png" alt=""  />
+
+<img loading="lazy" src="step3.png" alt=""  />
+</p>
+<p>Good job!! Press on save and that&rsquo;s it.</p>
+<h3 id="1-now-lets-start-setting-up-silent-autostart">1. Now let&rsquo;s start setting up silent autostart<a hidden class="anchor" aria-hidden="true" href="#1-now-lets-start-setting-up-silent-autostart">#</a></h3>
+<ul>
+<li>Open task schedule, either by searching for Task Schedule in Windows or using the <code>run</code> command and typing <code>taskschd.msc</code></li>
+<li>Click on <code>Create Task</code></li>
+<li>Then click on <code>Run whether user is logged on or not</code>
+<img loading="lazy" src="step4.png" alt=""  />
+
+<img loading="lazy" src="step5.png" alt=""  />
+</li>
+</ul>
+<h3 id="2-press-on-trigger-tab">2. Press on Trigger tab<a hidden class="anchor" aria-hidden="true" href="#2-press-on-trigger-tab">#</a></h3>
+<ul>
+<li>Click on Begin the task and choose <code>At log on</code> and choose your user</li>
+<li>Click on Begin the task and choose <code>At startup/At system startup</code>
+<img loading="lazy" src="step7.png" alt=""  />
+
+<img loading="lazy" src="step6.png" alt=""  />
+</li>
+</ul>
+<h3 id="3-go-into-actions-tab">3. Go into Actions tab<a hidden class="anchor" aria-hidden="true" href="#3-go-into-actions-tab">#</a></h3>
+<ul>
+<li>In <code>Action</code> leave it on <code>Start a program</code></li>
+<li>In <code>Program/Script</code> enter the path to syncthing for me, its <code>C:\ProgramData\chocolatey\bin\syncthing.exe</code></li>
+<li>This is optimal, but you can add <code>-no-console</code> for no cmd console, and <code>-no-browser</code> for no browser.
+<img loading="lazy" src="step8.png" alt=""  />
+</li>
+</ul>
+<h3 id="4-go-into-settings-tab">4. Go into Settings tab<a hidden class="anchor" aria-hidden="true" href="#4-go-into-settings-tab">#</a></h3>
+<ul>
+<li>Disable <code>Stop the task if it runs longer than:</code>
+<img loading="lazy" src="step9.png" alt=""  />
+</li>
+</ul>
+<p>Good Job! :&gt; You&rsquo;ve set up automatic startup for SyncThing</p>
+<h2 id="some-additional-settings">Some Additional Settings<a hidden class="anchor" aria-hidden="true" href="#some-additional-settings">#</a></h2>
+<p>Let&rsquo;s set up a shortcut link on the desktop that will do the same action</p>
+<blockquote>
+<p>You can set up task schedule to automatically open the desktop link.</p>
+</blockquote>
+<ol>
+<li>Begin by creating a new shortcut <code>Right click on your desktop and &gt; new &gt; shortcut</code>
+<ul>
+<li>Name the shortcut, the directory to your syncthing app, mine is <code>C:\ProgramData\chocolatey\bin\syncthing.exe -no-console -no-browser</code>
+add <code>-no-console -no-browser</code>
+<img loading="lazy" src="step10.png" alt=""  />
+
+<img loading="lazy" src="step11.png" alt=""  />
+</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>Syncthing also has file versioning</p>
+</blockquote>
+<p><img loading="lazy" src="step12.png" alt=""  />
+</p>
+<p>I will be covering more advanced syncthing features soon, for now, this setup will suffice for the average user.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://emiliaowo.github.io/LTL/">Emilias Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
